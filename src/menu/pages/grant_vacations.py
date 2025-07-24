@@ -86,7 +86,7 @@ class VacationGrantScreen(Screen):
 
                 self.app.event_manager.notify(Events.VACATION_EVENT, {
                     "event_type": Events.VACATION_EVENT.value,
-                    "description": f"Granted {days} of vacation {"with" if wants_payout else "without"} payout",
+                    "description": f"Granted {days} days of vacation {"with" if wants_payout else "without"} payout",
                     "employee": employee,
                     "days": days,
                     "payout": wants_payout
