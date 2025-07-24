@@ -1,6 +1,6 @@
 from __future__ import annotations
-from employee.employee import EmployeeRoles, Employee
-from general.cor_handlers import AbstractVacationHandler
+from src.employee.employee import EmployeeRoles, Employee
+from src.general.cor_handlers import AbstractVacationHandler
 
 FIXED_PAYOUT_VACATION_DAYS = 5
 

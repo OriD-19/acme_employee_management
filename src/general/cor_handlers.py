@@ -3,8 +3,8 @@ from abc import ABC, abstractmethod
 from typing import TYPE_CHECKING, Optional
  
 if TYPE_CHECKING:
-    from employee.employee import Employee, EmployeeRoles
-    from employee.payment import PaymentMethod
+    from src.employee.employee import Employee, EmployeeRoles
+    from src.employee.payment import PaymentMethod
 
 
 class Handler(ABC):

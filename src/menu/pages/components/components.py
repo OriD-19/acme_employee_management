@@ -4,7 +4,7 @@ from rich.table import Table as RichTable
 from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text
-from employee.employee import Employee
+from src.employee.employee import Employee
 from typing import Any
 
 

@@ -1,23 +1,23 @@
 from __future__ import annotations
 from rich.console import Console
-from menu.pages.screen import Screen
-from employee.queries import EmployeeStore
-from employee.vacations import VacationService
-from employee.payment import PaymentService
-from logs.event_manager import EventManager
-from logs.listener import Listener
-from logs.events import Events
-from logs.text_logger import TextLogger
-from logs.employee_logger import EmployeeTransactionLogger
+from src.menu.pages.screen import Screen
+from src.employee.queries import EmployeeStore
+from src.employee.vacations import VacationService
+from src.employee.payment import PaymentService
+from src.logs.event_manager import EventManager
+from src.logs.listener import Listener
+from src.logs.events import Events
+from src.logs.text_logger import TextLogger
+from src.logs.employee_logger import EmployeeTransactionLogger
 
 # import all the screens
-import menu.pages.index
-import menu.pages.filter_employees
-import menu.pages.create_employee_form
-import menu.pages.grant_vacations
-import menu.pages.pay_employees
-import menu.pages.employee_transactions
-import menu.pages.freelance_projects
+import src.menu.pages.index
+import src.menu.pages.filter_employees
+import src.menu.pages.create_employee_form
+import src.menu.pages.grant_vacations
+import src.menu.pages.pay_employees
+import src.menu.pages.employee_transactions
+import src.menu.pages.freelance_projects
 
 # Context class
 class App:

@@ -1,10 +1,10 @@
 from __future__ import annotations
-from menu.pages.screen import Screen
+from src.menu.pages.screen import Screen
 from typing import TYPE_CHECKING
 from rich.panel import Panel
 
 if TYPE_CHECKING:
-    from menu.app import App
+    from src.menu.app import App
 
 
 class IndexScreen(Screen):

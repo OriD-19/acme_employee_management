@@ -3,7 +3,7 @@ from typing import TYPE_CHECKING
 from abc import ABC, abstractmethod
 
 if TYPE_CHECKING:
-    from logs.listener import Listener
+    from src.logs.listener import Listener
 
 class Emitter(ABC):
 

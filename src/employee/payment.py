@@ -1,9 +1,9 @@
 from abc import ABC, abstractmethod
 from enum import Enum
-from general.cor_handlers import AbstractPaymentHandler
-from employee.roles import EmployeeRoles
+from src.general.cor_handlers import AbstractPaymentHandler
+from src.employee.roles import EmployeeRoles
 from typing import TypedDict
-from config.config import config
+from src.config.config import config
 
 
 class PaymentMethods(Enum):

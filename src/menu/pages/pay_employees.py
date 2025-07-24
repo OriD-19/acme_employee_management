@@ -3,11 +3,11 @@ from typing import TYPE_CHECKING
 from rich.panel import Panel
 from rich.table import Table
 from rich.console import Console
-from menu.pages.screen import Screen
-from logs.events import Events
+from src.menu.pages.screen import Screen
+from src.logs.events import Events
 
 if TYPE_CHECKING:
-    from menu.app import App
+    from src.menu.app import App
 
 
 class PaymentScreen(Screen):

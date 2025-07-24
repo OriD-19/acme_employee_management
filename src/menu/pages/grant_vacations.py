@@ -2,12 +2,12 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 from rich.panel import Panel
 from rich.table import Table
-from menu.pages.screen import Screen
+from src.menu.pages.screen import Screen
 from rich.prompt import Confirm
-from logs.events import Events
+from src.logs.events import Events
 
 if TYPE_CHECKING:
-    from menu.app import App
+    from src.menu.app import App
 
 
 class VacationGrantScreen(Screen):

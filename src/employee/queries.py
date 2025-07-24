@@ -1,5 +1,5 @@
-from employee.roles import EmployeeRoles
-from employee.employee import Employee
+from src.employee.roles import EmployeeRoles
+from src.employee.employee import Employee
 from abc import ABC, abstractmethod
 
 class SingletonMeta(type):

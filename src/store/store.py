@@ -1,9 +1,9 @@
-from employee.employee import Employee
+from src.employee.employee import Employee
 
 import random
-from employee.employee import EmployeeBuilder
-from employee.roles import EmployeeRoles
-from employee.payment import SalariedPayment, HourlyPayment, FreelancePayment
+from src.employee.employee import EmployeeBuilder
+from src.employee.roles import EmployeeRoles
+from src.employee.payment import SalariedPayment, HourlyPayment, FreelancePayment
 
 
 def generate_mock_employee():

@@ -1,6 +1,6 @@
-from menu.app import App
-from employee.queries import EmployeeInMemoryStore
-from store.store import store
+from src.menu.app import App
+from src.employee.queries import EmployeeInMemoryStore
+from src.store.store import store
 
 def main():
     # choose employee storing strategy

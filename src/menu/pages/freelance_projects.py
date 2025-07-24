@@ -2,10 +2,10 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 from rich.panel import Panel
 from rich.table import Table
-from menu.pages.screen import Screen
+from src.menu.pages.screen import Screen
 
 if TYPE_CHECKING:
-    from menu.pages.screen import App
+    from src.menu.pages.screen import App
 
 
 class FreelanceProjectsScreen(Screen):

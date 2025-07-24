@@ -1,5 +1,5 @@
 from datetime import datetime
-from logs.listener import Listener
+from src.logs.listener import Listener
 
 
 class TextLogger(Listener):

@@ -1,9 +1,9 @@
 from rich.panel import Panel
-from menu.pages.screen import Screen
-from employee.employee import EmployeeBuilder
-from employee.roles import EmployeeRoles
-from employee.payment import PaymentMethod
-from menu.pages.components.components import ConfirmationMessageComponent, EmployeeSummaryComponent
+from src.menu.pages.screen import Screen
+from src.employee.employee import EmployeeBuilder
+from src.employee.roles import EmployeeRoles
+from src.employee.payment import PaymentMethod
+from src.menu.pages.components.components import ConfirmationMessageComponent, EmployeeSummaryComponent
 
 
 class CreateEmployeeScreen(Screen):

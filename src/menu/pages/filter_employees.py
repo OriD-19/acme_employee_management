@@ -1,12 +1,12 @@
 from __future__ import annotations
 from typing import TYPE_CHECKING
 from rich.panel import Panel
-from employee.roles import EmployeeRoles
-from menu.pages.components.components import EmployeeTable
-from menu.pages.screen import Screen
+from src.employee.roles import EmployeeRoles
+from src.menu.pages.components.components import EmployeeTable
+from src.menu.pages.screen import Screen
 
 if TYPE_CHECKING:
-    from menu.app import App
+    from src.menu.app import App
 
 
 class FilterEmployeesScreen(Screen):

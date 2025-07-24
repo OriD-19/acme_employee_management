@@ -36,10 +36,6 @@ pipx install uv
 
 ### 3. Install Project Dependencies
 ```sh
-uv pip install -r requirements.txt
-```
-*Or, if you use a pyproject.toml file:*
-```sh
 uv pip install .
 ```
 
